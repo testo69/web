@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investor Sign-Up Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Investor Sign-Up Form</h1>
+        <form action="#" method="post">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="investmentAmount">Investment Amount (USD):</label>
+            <input type="number" id="investmentAmount" name="investmentAmount" required>
+
+            <label for="investmentType">Type of Investment:</label>
+            <select id="investmentType" name="investmentType" required>
+                <option value="equity">Equity</option>
+                <option value="debt">Debt</option>
+                <option value="realEstate">Real Estate</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="experience">Previous Investment Experience:</label>
+            <textarea id="experience" name="experience" rows="4" required></textarea>
+
+            <label for="referral">How did you hear about us?</label>
+            <input type="text" id="referral" name="referral" required>
+
+            <label for="goals">Investment Goals:</label>
+            <textarea id="goals" name="goals" rows="4" required></textarea>
+
+            <label for="riskTolerance">Risk Tolerance:</label>
+            <select id="riskTolerance" name="riskTolerance" required>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+
+            <label for="investmentDuration">Preferred Investment Duration:</label>
+            <select id="investmentDuration" name="investmentDuration" required>
+                <option value="shortTerm">Short Term</option>
+                <option value="mediumTerm">Medium Term</option>
+                <option value="longTerm">Long Term</option>
+            </select>
+
+            <label for="questions">Do you have any questions for us?</label>
+            <textarea id="questions" name="questions" rows="4"></textarea>
+
+            <label for="newsletter">Subscribe to our newsletter:</label>
+            <input type="checkbox" id="newsletter" name="newsletter">
+
+            <input type="submit" value="Sign Up">
+        </form>
+    </div>
+</body>
+</html>
